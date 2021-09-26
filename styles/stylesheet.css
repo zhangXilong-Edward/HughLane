@@ -1,0 +1,205 @@
+.main-content{
+    z-index: -10;
+}
+
+.footer-text{
+font-size: 1.5em;
+font-weight: lighter;
+}
+
+
+a {
+    color: #2896EC !important;
+}
+
+/*hover */
+img.filter:hover {
+    filter: sepia(80%);
+    -webkit-filter: sepia(80%);
+}
+
+
+
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.titleHeader {
+    color: #2896EC;
+}
+
+
+
+.form-control{
+    width: 30%;
+}
+
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 2em;
+}
+p{
+    font-size: 1em;
+}
+
+
+
+#glass {
+    float: left;
+    object-fit: cover;
+}
+
+
+.fit-image{
+    object-fit: cover;
+    }
+
+
+.img-right{
+    width: 65%;
+    height: 200px;
+}
+
+#img{
+    opacity: 0.4;
+}
+
+
+
+/*visit page css*/
+.visit {
+    font-size: 1.2em !important;
+}
+.visit_title {
+    font-size: 1.7em !important;
+    text-align: center;
+    color:black !important;
+}
+/*visit page css ends*/
+
+/*social media integration here starts*/
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.4;
+}
+
+.fa-facebook {
+    background: white;
+    color: white;
+}
+
+.fa-twitter {
+    background: white;
+    color: white;
+}
+
+.fa-instagram {
+    background: white;
+    color: white;
+}
+
+.fa-youtube {
+    background: white;
+    color: white;
+}
+
+.fa-linkedin {
+    background: white;
+    color: white;
+}
+
+
+
+/* About page css */
+
+.hugh-lane-blue-color{
+    color: #2896EC;
+}
+
+.page-title{
+    font-size: 2em;
+}
+/* About page css end */
+
+
+  /* Media queries */
+
+   /* xs Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    #hugh-lane-headings h1 {
+        font-size: 1.8em;
+        float:none !important;
+      }
+      #gaelic-heading{
+        font-size: 1em !important;
+    }
+    #ad-free-heading h2{
+        font-size: 1em;
+        float: none !important;
+    }
+   }
+
+   /* css for different text sizes */
+
+   .small-text{
+       font-size: 0.5em;
+   }
+
+   .medium-text h2{
+       font-size: 0.7em;
+   }
+  
+   /* sm Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) {
+
+   }
+  
+   /* md Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {
+    #hugh-lane-headings h1 {
+        font-size: 1.7em;
+      }
+    #ad-free-heading h2{
+        font-size: 1em;
+    }
+   }
+  
+   /* lg Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) {  }
+  
+   /* xl Extra large devices (large desktops) */
+   /* No media query since the extra-large breakpoint has no upper bound on its width */
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+
+.message{color:#FF0000;
+    font-size: small;
+    font-weight: bold;  }
+
+    html,body
+{    overflow-x: hidden; 
+}

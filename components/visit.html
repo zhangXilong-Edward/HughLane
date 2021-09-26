@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="Plan a visit">
+    <title>Plan Your Visit | Hugh Lane Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="Author"
+          content="Aleksandra Jaworska Gareth Walsh Edward Xilong Zhang Yue Yu Pragya Vashishtha">
+    <meta name="description"
+          content="Hugh Lane Gallery houses the foremost public collection of contemporary art in Ireland; the gallery also has a dynamic temporary exhibitions programme often encompassing the permanent collection. "/>
+    <meta name="keywords"
+          content="Bookshop,Art Gallery Dublin, Irish Exhibitions, Modern Art Galleries, Contemporary Exhibitions, Things to do in Dublin, tourist attraction Ireland, Places To Visit Ireland, Places to Visit Dublin"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../styles/stylesheet.css"/>
+
+    <script src="../app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Icon for browser tab -->
+    <link rel="icon" href="../photos/h-icon.png">
+
+</head>
+
+<body>
+<div class="page-header container-fluid bg-light">
+    <div id="hugh-lane-headings" class="clearfix">
+        <h1 class="titleHeader float-left ml-4 mr-4 mt-2"><a href="../index.html">HUGH LANE GALLERY</a></h1>
+        <h1 id="gaelic-heading" class="titleHeader float-right ml-4 mr-4 mt-2"><a href="../index.html">DÁNLANN AN HUGH
+            LANE</a></h1>
+    </div>
+
+    <div id="ad-free-heading" class="clearfix">
+        <h2 class="float-right mr-4 ml-4">Admission free</h2>
+    </div>
+
+    <!-- Navigation menu -->
+    <nav id="nav-top" class="navbar navbar-expand-lg bg-light navbar-light">
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Art
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../components/art/collections.html">Collections</a>
+                        <a class="dropdown-item" href="../components/art/exhibitions.html">Exhibitions</a>
+                        <a class="dropdown-item" href="../components/art/artists.html">Artists A-Z </a>
+                        <a class="dropdown-item" href="../components/art/publications.html">Publications A-Z</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown  px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="../components/visit.html"
+                       id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false">
+                        Visit
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../components/visit.html#opening">Opening Hours</a>
+                        <a class="dropdown-item" href="../components/visit.html#access">Access & Facilities</a>
+                        <a class="dropdown-item" href="../components/visit.html#family">Family Tours</a>
+                        <a class="dropdown-item" href="../components/visit.html#guided">Guided Tours</a>
+                        <a class="dropdown-item" href="../components/visit.html#cafe">Café and Bookshop</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown  px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        What's on
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../components/art/collections.html">Collections </a>
+                        <a class="dropdown-item" href="../components/art/exhibitions.html">Exhibitions</a>
+                        <a class="dropdown-item" href="../components/learn_and_engage/programmes.html">Concerts</a>
+                        <a class="dropdown-item" href="../components/learn_and_engage/programmes.html">Public Events</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown  px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Learn & Engage
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../components/learn_and_engage/overview.html">Overview </a>
+                        <a class="dropdown-item" href="../components/learn_and_engage/courses.html">Courses </a>
+                        <a class="dropdown-item" href="../components/learn_and_engage/programmes.html">Programmes</a>
+                        <a class="dropdown-item" href="../components/learn_and_engage/talks.html">Talks </a>
+                        <a class="dropdown-item" href="../components/learn_and_engage/kids_club.html">Kids Club</a>
+                    </div>
+                </li>
+
+                <li class="nav-item  px-4">
+                    <a class="nav-link  text-dark" href="../components/bookshop.html">Shop</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</div>
+
+
+<div class="mt-2">
+
+    <div class="card border-0 my-2">
+        <p><a id="opening"></a></p>
+        <div class="row px-5">
+
+            <div class="col-md-4">
+                <div class="card-body-top visit">
+                    <br><br><h5 class="card-title visit_title font-weight-bold">Opening Hours</h5>
+                    <br><img src="../photos/openinghours.JPG" class="card-img rounded-0"
+                             alt="a woman sitting in Hugh Lane Gallery">
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="card-body visit">
+                    <p class="card-text px-2 hours_text">
+                        <br><br><br>Closed Mondays <br>
+                        Tuesday to Thursday 9.45am– 6pm <br>
+                        Friday 9.45am – 5pm <br>
+                        Saturday 10am – 5pm <br>
+                        Sunday 11am – 5pm <br> <br>
+
+                        Map available <a href="http://www.hughlane.ie/phocadownload/pdf/gallery_map_large_v4.pdf"
+                                         target="_blank">here</a>. <br><br>
+
+                        <strong>Buses</strong>: 7, 11, 13, 16, 38, 40, 46A, 123 and many other bus routes pass close to
+                        the Gallery on O’Connell Street / Parnell Square.
+                        <br><br>Click <a
+                            href="http://www.dublinbus.ie/en/Your-Journey1/City-Centre-Bus-Stops/Parnell-Square-Bus-Stops/"
+                            target="_blank"> here</a>
+                        for further information. <br><br>
+
+                        <strong>Dublin Bikes Stand</strong>: Parnell Square North.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="card border-0 my-2">
+        <p><a id="access"></a></p>
+        <div class="row px-5">
+
+            <div class="col-md-8">
+                <div class="card-body visit">
+                    <!-- display this h5 heading only on mobile devices -->
+                    <h5 class="card-title visit_title font-weight-bold d-block d-sm-none">Access and Facilities</h5>
+                    <p class="card-text px-2">
+                        <br><br><br><br><strong>Information Desk</strong> located on the right on entrance to the
+                        Gallery.<br> <br>
+                        <strong>Toilets</strong> <br>
+                        Accessible and standard toilets are located on the ground floor entrance hallway and on basement
+                        level.<br>
+                        Baby changing facilities are available on both toilets. <br> <br>
+                        <strong>Seating</strong><br>
+                        Folding seats are available, just ask a member of staff or at the Information Desks.<br><br>
+                        <strong>Lifts</strong><br>
+                        A large lift beside the reception area, which provides access to all floors <br>
+                        A small lift in the new wing corridor that provides access from the ground floor to the first
+                        floor exhibition galleries<br><br>
+                        <strong>Cloakroom</strong> located in the basement that is accessible via steps or the lift.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-body visit">
+                    <!-- hide this h5 heading only on mobile devices -->
+                    <br><br><h5 class="card-title visit_title font-weight-bold d-none d-sm-block">Access and
+                    Facilities</h5>
+                    <br><img src="../photos/access.JPG" class="card-img rounded-0"
+                             alt="a woman sitting in Hugh Lane Gallery">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="card border-0 my-2">
+    <p><a id="family"></a></p>
+    <div class="row px-5">
+        <div class="col-md-4">
+            <div class="card-body visit">
+                <br><br><h5 class="card-title visit_title font-weight-bold">Family Tours</h5>
+                <br><img src="../photos/kidsclub.JPG" class="card-img rounded-0"
+                         alt="Workshop in kids club at Hugh Lane">
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body visit">
+                <p class="card-text px-2">
+                    <br><br><br><br>Why not bring your kids to our <a href="learn_and_engage/kids_club.html">kids
+                    club</a>!<br><br>
+                    The collection has been explored by children aged three to adults in their eighties during
+                    successful and popular programmes.
+                    This new programmed, multi-purpose space allows for additional experimentation. <br>
+                    <br>See lots of our lovely art idea films on the Gallery's
+                    <a href='visit-video.html'
+                       target="_blank">video presentation</a>.
+                    <br>
+                    <br>For details of upcoming art workshops for children, the Gallery's Education Programme pdf is
+                    available
+                    <a href="https://www.hughlane.ie/phocadownload/the%20artist%20at%20work%20and%20drawing.pdf"
+                       target="_blank">here</a>.
+                    <br>
+                    <br>Where advanced booking is required or where there is a workshop fee, places are booked
+                    through <a href="eventbrite.ie" target="_blank">eventbrite.ie</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card border-0 my-2">
+    <p><a id="guided"></a></p>
+    <div class="row px-5">
+        <div class="col-md-8">
+            <div class="card-body visit">
+                <!-- display this h5 heading only on mobile devices -->
+                <h5 class="card-title visit_title font-weight-bold d-block d-sm-none">Guided Tours</h5>
+
+                <p class="card-text px-2">
+                    <br><br><br><strong>Guided Tour</strong> <br>
+                    Guided tours can be booked by prior appointment with the Gallery’s Education Department, at €30
+                    per group up to a max of 30 per group.<br>
+                    <br>For further information, please click
+                    <a href="http://www.hughlane.ie/guided-tours" target="_blank">here</a>.
+                    <br><br>
+                    <strong>Self-guided Tour</strong> <br>
+                    Self-led group visits to the Hugh Lane are free. <br> <br>
+                    However groups must remain under the supervision of their group leaders and follow all
+                    regulations of the gallery and directions of gallery attendants.
+                    <br><br>
+                    Please contact the Education Department in advance of visiting the gallery on a self guided tour
+                    to ensure that the visit does not clash with other pre-arranged events stating in your email
+                    that you are intending to visit on a self guided visit.
+                    <br><br>
+                    <strong>Group Visits</strong><br>
+                    Due to reduced capacity during refurbishment, all tours or large groups should be booked in
+                    advance (even when a guide is not required).
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card-body visit">
+                <!-- hide this h5 heading only on mobile devices -->
+                <br><br><h5 class="card-title visit_title font-weight-bold d-none d-sm-block">Guided Tours</h5>
+                <br><img src="../photos/group.JPG" class="card-img rounded-0"
+                         alt="A group of arts students visiting Hugh Lane Gallery">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card border-0 my-2">
+    <p><a id="cafe"></a></p>
+    <div class="row px-5">
+        <div class="col-md-4">
+            <div class="card-body visit">
+                <br><br><h5 class="card-title visit_title font-weight-bold">Café & Bookshop</h5>
+                <br><img src="../photos/cafe.JPG" class="card-img rounded-0" alt="Hugh Lane Gallery cafe">
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body visit">
+                <div class="card-text px-2">
+                    <br><br><br><br><br>
+                    <p>The café, <a href="https://www.hatchandsons.co/" target="_blank"><strong>Hatch and
+                        Sons</strong></a>,
+                        is temporarily closed but looks forward to reopening as soon as possible.
+                        <br><br>
+                        The <a href="bookshop.html"><strong>bookshop</strong></a> is open during gallery hours. <br><br>
+
+                        Our Bookshop carries a wide selection, including publications about the Gallery and our
+                        exhibitions past and present. <br><br>
+
+                        All cleaned regularly. <br><br>
+
+                        For further information please email gallerybookshughlane@gmail.com <br> or telephone +353
+                        (0)89 2202855.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="my-5 px-5"></p>
+</div>
+
+<div id="footer" class="bg-info">
+
+    <!-- Navigation menu -->
+    <nav class="navbar navbar-expand-sm ml-4 mr-5 bg-info navbar-light">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../components/about/hugh-lane.html">Hugh Lane</a>
+                        <a class="dropdown-item" href="../components/about/charlemont-house.html">Charlemont House</a>
+                        <a class="dropdown-item" href="../components/about/the-gallery.html">The Gallery</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Related Documents</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="support.html">Support</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="../components/contact.html">Contact</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="https://www.dublincity.ie/council" target="_blank">Career</a>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-primary float-right" onclick="topFunction()">Top</button>
+        </div>
+    </nav>
+    <!-- <div class="jumbotron"> -->
+    <div class="ml-5 mr-5">
+        <div class="clearfix">
+            <div class="form-group float-left">
+                <h2 class="footer-text text-white"><label for="mailList">
+                    <br>Join our mailing list:</label></h2>
+                <div class="input-group-append">
+                    <input type="text" class="form-control w-100" id="mailList">
+                    <button type="button" class="btn btn-primary ml-2">Join</button>
+                </div>
+                <div>
+                    <br> <br>
+                    <a href="https://www.facebook.com/thehughlane/" class="fa fa-facebook" target="_blank"></a>&nbsp;&nbsp;
+                    <a href="https://twitter.com/TheHughLane" class="fa fa-twitter" target="_blank"></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/thehughlane/" class="fa fa-instagram" target="_blank"></a>&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/channel/UC-ul2v2RVcfveDkIAcvwWtQ" class="fa fa-youtube"
+                       target="_blank"></a>&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/in/victoria-evans-4239ba87/" class="fa fa-linkedin"
+                       target="_blank"></a>&nbsp;&nbsp;
+                </div>
+
+            </div>
+            <div class="float-right mt-4">
+                <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9
+                    <br><br><small>Closed today </small></h2>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center float-none">
+            <a class="p-4 text-dark" href="#">Privacy Policy</a>
+            <a class="p-4 text-dark" href="#">Terms of use</a>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
